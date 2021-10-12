@@ -29,7 +29,7 @@ class FriendsList extends React.Component {
                 {this.state.friendsList.map(friend => (
                     <div>
                         <h2>{friend.name}</h2>
-                        <Link to={`/friends/${friend.id}`}>Go to this friend's page</Link>
+                        <Link to={`/friends/${friend.id}`}>See this friend's details</Link>
                     </div>
                 ))}
                 <Route path={`/friends/:id`}>

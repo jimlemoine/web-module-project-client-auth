@@ -9,9 +9,10 @@ export default function Friend(props) {
     
     return (
         <div className="friend">
-            <h2>Friend Details: {friend.name}</h2>
-            <p>{friend.age}</p>
-            <p>{friend.email}</p>
+            <h2>Friend Details:</h2>
+            <p>Name: {friend.name}</p>
+            <p>Age: {friend.age}</p>
+            <p>Email: {friend.email}</p>
         </div>
     )
 }
